@@ -1,4 +1,4 @@
-[
+{
   { 'name': 'Fire_Recall', 'description': 'Puts the elevator into fire recall mode, causing it to return to the given floor.', 'arguments': [{ 'name': 'true/false', 'type': 'boolean', }, { 'name': 'floor', 'type': 'number', }] },
   { 'name': 'Phase_2', 'description': 'Puts the elevator into phase 2.', 'arguments': [{ 'name': 'true/false', 'type': 'boolean', }] },
   { 'name': 'Stop', 'description': 'Stops/resumes the operation of the elevator.', 'arguments': [{ 'name': 'true/false', 'type': 'boolean', }] },
@@ -15,4 +15,4 @@
   { 'name': 'Unlock_Floors', 'description': 'Unlocks the given floors on the elevator.', 'arguments': [{ 'name': 'floors', 'type': 'array' }], 'isGrouped': true },
   { 'name': 'Lock_Hall_Floors', 'description': 'Locks the given hall floors on the elevator.', 'arguments': [{ 'name': 'floors', 'type': 'array' }], 'isGrouped': true },
   { 'name': 'Unlock_Hall_Floors', 'description': 'Unlocks the given hall floors on the elevator.', 'arguments': [{ 'name': 'floors', 'type': 'array' }], 'isGrouped': true },
-]
+}
